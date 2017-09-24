@@ -6,7 +6,7 @@ The technologies used are the following:
 
  - [Electron](https://electron.atom.io/) as the main framework to make the whole application work as a desktop app.
  - [RiotJS](http://riotjs.com/) as a "front-end" framework.
- - [TypeScript](http://www.typescriptlang.org/) as a Javascirpt superset.
+ - [TypeScript](http://www.typescriptlang.org/) as a JavaScript superset.
  - [SCSS](http://sass-lang.com) to make our life easier with CSS.
 
 ---

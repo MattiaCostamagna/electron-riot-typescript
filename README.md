@@ -17,7 +17,7 @@ To make it work, follow these steps:
  2. ``` cd electron-riot-typescript ```
  3. ``` npm i ```
  4. ``` grunt ```
- 5. ``` npm start ```
+ 5. ``` npm run start ```
 
  ---
 

@@ -11,7 +11,7 @@ The technologies used are the following:
 
 ---
 
-###Installation steps
+### Installation steps
 To make it work, follow these steps:
  1. Clone the repository
  2. ``` cd electron-riot-typescript ```
@@ -21,7 +21,7 @@ To make it work, follow these steps:
 
  ---
 
-###Relevant files and folders
+### Relevant files and folders
 |                       | TYPE   | PURPOSE                                                                                         |
  ---------------------- | ------ | ------------------------------------------------------------------------------------------------
 | `./dist`              | folder | Where the "compiled" code ends                                                                  |
@@ -41,7 +41,7 @@ Where `sample` is the name of your tag.
 
 ---
 
-###While editing
+### While editing
 When you edit this progect, you can run on a console the command `grunt watch`,  that'll do the following:
 	1. Compiles your tags inside the `./src/tags` folder
 	2. Concatenates and minifies the Riot file, the compiled tags, and the renderer.js

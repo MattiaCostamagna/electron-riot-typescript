@@ -1,0 +1,1 @@
+this.imgPath = 'img/buddy.png';

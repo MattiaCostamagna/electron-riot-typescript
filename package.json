@@ -1,0 +1,36 @@
+{
+    "name": "electron-riot-typescript",
+    "version": "0.0.1",
+    "description": "Sample desktop application that uses Electron, RiotJS, TypeScript, and SCSS",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron dist\\main.js"
+    },
+    "author": {
+        "name": "Mattia Costamagna",
+        "email": "costamagnaMatt@gmail.com"
+    },
+    "keywords": [
+        "electron",
+        "riot",
+        "riotjs",
+        "typescript",
+        "sass",
+        "scss"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^1.7.6",
+        "grunt": "^1.0.1",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-riot": "^0.1.8",
+        "typescript-simple": "^8.0.4"
+    },
+    "dependencies": {
+        "riot": "^3.7.2"
+    }
+}

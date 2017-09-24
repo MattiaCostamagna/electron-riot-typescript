@@ -1,0 +1,12 @@
+.vscode
+.atom
+.idea
+
+.sass-cache
+.uglify-maps
+
+dist
+node_modules
+
+src/compiled-tags
+src/style/css

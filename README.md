@@ -43,12 +43,12 @@ Where `sample` is the name of your tag.
 
 ### While editing
 When you edit this progect, you can run on a console the command `grunt watch`,  that'll do the following:
-	1. Compiles your tags inside the `./src/tags` folder
-	2. Concatenates and minifies the Riot file, the compiled tags, and the renderer.js
-	3. Minifies the `./scr/main.js`
-	4. Copies the `./src/index.html` and the `./src/img` folder
-	5. Compiles the SCSS files inside the `./src/style/scss` folder
-	6. Minifies the output of the previous step
+ 1. Compiles your tags inside the `./src/tags` folder
+ 2. Concatenates and minifies the Riot file, the compiled tags, and the renderer.js
+ 3. Minifies the `./scr/main.js`
+ 4. Copies the `./src/index.html` and the `./src/img` folder
+ 5. Compiles the SCSS files inside the `./src/style/scss` folder
+ 6. Minifies the output of the previous step
 
 The output of each step will be saved in the `./dist` folder.
 

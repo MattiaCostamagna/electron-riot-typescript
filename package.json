@@ -4,7 +4,7 @@
     "description": "Sample desktop application that uses Electron, RiotJS, TypeScript, and SCSS",
     "main": "main.js",
     "scripts": {
-        "start": "electron dist\\main.js"
+        "start": "electron dist/main.js"
     },
     "author": {
         "name": "Mattia Costamagna",

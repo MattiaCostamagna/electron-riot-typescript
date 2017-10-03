@@ -4,6 +4,7 @@
     "description": "Sample desktop application that uses Electron, RiotJS, TypeScript, and SCSS",
     "main": "main.js",
     "scripts": {
+        "compile-riot": "riot --config riot.config",
         "start": "electron dist/main.js"
     },
     "author": {
@@ -20,17 +21,16 @@
     ],
     "license": "MIT",
     "devDependencies": {
-        "electron": "^1.7.6",
         "grunt": "^1.0.1",
         "grunt-contrib-copy": "^1.0.0",
         "grunt-contrib-cssmin": "^2.2.1",
         "grunt-contrib-sass": "^1.0.0",
         "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
         "grunt-contrib-watch": "^1.0.0",
-        "grunt-riot": "^0.1.8",
-        "typescript-simple": "^8.0.4"
+        "grunt-exec": "^3.0.0"
     },
     "dependencies": {
+        "electron": "^1.7.6",
         "riot": "^3.7.2"
     }
 }

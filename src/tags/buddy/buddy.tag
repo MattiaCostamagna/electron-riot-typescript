@@ -1,6 +1,6 @@
 <buddy>
-  <img src={this.imgPath}>
+  <img src={ imgPath }>
 
-  <script src="src/tags/buddy/buddy.ts"></script>
-  <style> @import 'src/tags/buddy/buddy'; </style>
+  <script src="buddy.ts"></script>
+  <style> @import 'buddy'; </style>
 </buddy>

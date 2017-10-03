@@ -1,0 +1,14 @@
+{
+    "curly": true,
+    "forin": true,
+    "strict": "implied",
+    "unused": true,
+    "esversion": 6,
+    "devel": true,
+    "browser": true,
+    "node": true,
+    "varstmt": true,
+    "globals": {
+        "riot": true
+    }
+}

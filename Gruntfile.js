@@ -1,17 +1,9 @@
 module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        riot: {
-            options: {
-                type: 'typescript',
-                style: 'scss'
-            },
-            dist: {
-                expand: true,
-                cwd: 'src/tags',
-                src: '**/*.tag',
-                dest: 'src/compiled-tags',
-                ext: '.js'
+        exec: {
+            riotcompile: {
+                cmd: 'npm run compile-riot'
             }
         },
         uglify: {
@@ -92,16 +84,16 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-            files: ['Gruntfile.js', 'src/**/*.html', 'src/**/*.scss', 'src/**/*.tag', 'src/**/*.ts', ],
-            tasks: ['sass', 'cssmin', 'riot', 'uglify', 'copy']
+            files: ['Gruntfile.js', 'src/**/*.html', 'src/**/*.scss', 'src/**/*.tag', 'src/**/*.ts'],
+            tasks: ['sass', 'cssmin', 'exec', 'uglify', 'copy']
         }
     });
 
-    grunt.loadNpmTasks('grunt-riot');
+    grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.registerTask('default', ['sass', 'cssmin', 'riot', 'uglify', 'copy']);
+    grunt.registerTask('default', ['sass', 'cssmin', 'exec', 'uglify', 'copy']);
 };

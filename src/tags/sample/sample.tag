@@ -1,10 +1,10 @@
 <sample>
-  <h3>{ this.message }</h3>
+  <h3>{ message }</h3>
   <ul>
-    <li each={ this.techs }>{ this.name }</li>
+    <li each={ techs }>{ name }</li>
   </ul>
 
-  <script src="src/tags/sample/sample.ts"></script>
-  <style> @import 'src/tags/sample/sample'; </style>
+  <script src="sample.ts"></script>
+  <style> @import 'sample'; </style>
   <buddy></buddy>
 </sample>
